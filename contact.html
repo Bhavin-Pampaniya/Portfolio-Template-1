@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js" defer></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        box-shadow: 0px 0px 10px 5px rgba(97, 97, 97, 0.39);
+        }
+        .section-contact{
+            margin-top: 10vh;
+        }
+        </style>
+    <title>Personal-Folio-Contact</title>
+</head>
+<body>
+    <!-- *************************************************************
+            Header SECTION
+    ************************************************************* -->
+    <header class="header">
+        <a class="logo" href="index.html">Personal<span>Folio</span></a>
+        <div class="hamburger">
+
+            <ion-icon name="menu-outline"></ion-icon>
+        </div>
+        <div class="close">   
+            <ion-icon name="close-outline"></ion-icon>
+        </div>
+        <nav class="navbar">
+            <ul class="navbar-lists">
+                <li><a class="navbar-link home-link" href="/index.html">Home</a></li>
+                <li><a class="navbar-link about-link" href="/about.html">about</a></li>
+                <li><a class="navbar-link services-link" href="/services.html">services</a></li>
+                <li><a class="navbar-link portfolio-link" href="#" >portfolio</a></li>
+                <li><a class="navbar-link contact-link" href="/" >contact</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <!-- *************************************************************
+        Contact SECTION
+    ************************************************************* -->
+    <section class="section section-contact">
+        <div class="container">
+            <h2 class="common-heading">Conctact Me</h2>
+        </div>
+        <div class="contact-container">
+            <form action="">
+                <div class="grid grid-two-col">
+                    <div>
+                        <label for="name"></label>
+                        <input type="text" name="name" id="name" placeholder="Name" >
+                    </div>
+                    <div>
+                        <label for="email"></label>
+                        <input type="email" name="email" id="email" placeholder="Email">
+                    </div>
+                </div>
+                <div>
+                    <label for="subject"></label>
+                    <input type="text" name="subject" id="subject" placeholder="Subject">
+                </div>
+                <div>
+                    <label for="textarea"></label>
+                    <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+                </div>
+                <!-- <button type="submit" class="btn" >Send Message</button> -->
+                <input class="btn" type="submit" value="Send Messasge">
+            </form>
+        </div>
+    </section>
+    <!-- *************************************************************
+        Footer SECTION
+    ************************************************************* -->
+
+    <footer class="section section-footer">
+        <div class="container grid grid-four-col">
+            <div class="footer-about">
+                <h3>About</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus ipsa cumque at laborum laboriosam
+                    corrupti beatae sint voluptate officia amet.
+                </p>
+            </div>
+            <div class="footer-links">
+                <h3>Links</h3>
+                <a href="#" class="links">Home</a>
+                <a href="#" class="links">About</a>
+                <a href="#" class="links">Services</a>
+                <a href="#" class="links">Portfolio</a>
+                <a href="#" class="links">Contact</a>
+            </div>
+            <div class="footer-links">
+                <h3>Work Links</h3 >
+                <a href="#" class="links">Web Design</a>
+                <a href="#" class="links">Web Development</a>
+                <a href="#" class="links">MERN Project</a>
+                <a href="#" class="links">JavaScript Project</a>
+                <a href="#" class="links">Python Project</a>
+            </div>
+            <div class="personal-info">
+                <h3>Have any Query?</h3>
+                <address>
+                    <div>
+                        <p>
+                            <span>
+                                <ion-icon name="location-outline"></ion-icon>
+                            </span>
+                            Gujarat, India
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <span>
+                                <ion-icon name="call-outline"></ion-icon>
+                            </span>
+                            <a href="tel:919099905699">+91 9099905699</a>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <span>
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </span>
+                            <a href="mainto:bhavinpampaniya07@gmail.com">bhavinpampaniya07@gmail.com</a>
+                        </p>
+                    </div>
+                </address>
+            </div>
+        </div>
+        <div class="social-links">
+            <div class="insta">
+                <a><ion-icon class="ico" name="logo-instagram"></ion-icon></a>
+            </div>
+            <div class="git-hub">
+                <a><ion-icon class="ico" name="logo-github"></ion-icon></a>
+            </div>
+        </div>
+        <div class="copyright">
+            Copyright 	&#169;2022 All rights reserved | This template is made by Bhavin Pampaniya | inspired from Thapa Technical
+        </div>
+    </footer>
+
+
+
+
+    <!-- *************************************************************
+        JavaScript SECTION
+    ************************************************************* -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+</html>

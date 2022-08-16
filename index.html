@@ -1,0 +1,728 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Portfolio Website Template">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Bhavin Pampaniya">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js" defer></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Personal-Folio</title>
+</head>
+
+<body class="sticky">
+    <!-- *************************************************************
+        Header SECTION
+    ************************************************************* -->
+    <header class="header ">
+        <a class="logo" href="index.html">Personal<span>Folio</span></a>
+        <div class="hamburger">
+
+            <ion-icon name="menu-outline"></ion-icon>
+        </div>
+        <div class="close">
+            <ion-icon name="close-outline"></ion-icon>
+        </div>
+        <nav class="navbar">
+            <ul class="navbar-lists">
+                <li><a class="navbar-link home-link" href="/">Home</a></li>
+                <li><a class="navbar-link about-link" href="/about.html" target="_blank">about</a></li>
+                <li><a class="navbar-link services-link" href="services.html" target="_blank">services</a></li>
+                <li><a class="navbar-link portfolio-link">portfolio</a></li>
+                <li><a class="navbar-link contact-link" href="contact.html" target="_blank">contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <!-- *************************************************************
+        HERO SECTION
+    ************************************************************* -->
+    <main>
+        <section class="section section-hero">
+            <div class="container grid grid-two-col">
+                <div class="section-hero-data">
+                    <p class="hero-top-data">this is me</p>
+                    <h1 class="hero-main-heading">bhavin pampaniya</h1>
+                    <p class="hero-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consequatur
+                        cupiditate accusamus error perferendis sit earum sequi eum officia? Nam quae provident
+                        blanditiis consequatur labore.
+                    </p>
+                    <div>
+                        <a class="btn hireme-btn">Hire Me</a>
+                    </div>
+                </div>
+                <!-- Hero right side -->
+                <div class="section-hero-image">
+                    <!-- <img src="images/herobg.jpg" alt="Image of website owner Bhavin Pampaniya in main section"> -->
+                    <img src="images/hero.jpg" alt="Image of website owner Bhavin Pampaniya in main section">
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- *************************************************************
+        ABOUT SECTION
+    ************************************************************* -->
+    <section class="section section-about">
+        <div class="container grid grid-two-col">
+            <div class="section-about-image">
+                <img src="images/biodata.jpg" alt="Image of website owner Bhavin Pampaniya in about section">
+            </div>
+            <!-- About right side -->
+            <div class="section-about-data">
+                <h2 class="common-heading">my bio-data</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus natus eum quibusdam, blanditiis
+                    nobis dolor distinctio asperiores itaque voluptas nesciunt cum dolorum. Quidem sed id repellat
+                    facere
+                    itaque voluptas nesciunt cum dolorum. Quidem sed id repellat facere quod placeat praesentium.</p>
+                <div class="bio-data-stats">
+                    <div class="bio-stats">
+                        <h3>Design</h3>
+                        <div class="progress-bar">
+                            <span>60%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>HTML</h3>
+                        <div class="progress-bar progress-bar-2">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>CSS</h3>
+                        <div class="progress-bar progress-bar-3">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>JavaScript</h3>
+                        <div class="progress-bar progress-bar-4">
+                            <span>60%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>Backend</h3>
+                        <div class="progress-bar progress-bar-5">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- *************************************************************
+        Portfolio SECTION
+    ************************************************************* -->
+    <section class="section section-portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="common-heading">
+                Latest Work
+            </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quae, nisi delectus provident quo
+                dignissimos sed deleniti, ea, ex fuga cupiditate consequuntur recusandae?</p>
+        </div>
+        <div class="section-btn">
+            <div class="btn w-btn" data-btn-num="1">Websites</div>
+            <div class="btn w-btn" data-btn-num="2">JavaScript</div>
+        </div>
+        <div class="container grid grid-three-col section-portfolio-image">
+            <div class="img-overlay btn-1">
+                <img src="images/folio/1.jpg" alt="1-project">
+                <div class="overlay">
+                    <a href="#" target="_blank" class="common-heading">Project 1</a>
+                </div>
+            </div>
+            <div class="img-overlay btn-1">
+                <img src="images/folio/1.jpg" alt="2-project">
+                <div class="overlay">
+                    <a href="#" target="_blank" class="common-heading">Project 2</a>
+                </div>
+
+            </div>
+            <div class="img-overlay btn-1">
+                <img src="images/folio/3.jpg" alt="3-project">
+                <div class="overlay">
+                    <a href="#" target="_blank" class="common-heading">Project 3</a>
+                </div>
+
+            </div>
+            <div class="img-overlay btn-2">
+                <img src="images/folio/4.jpg" alt="4-project">
+                <div class="overlay">
+                    <a href="#" target="_blank" class="common-heading">Project 4</a>
+                </div>
+
+            </div>
+            <div class="img-overlay btn-2">
+                <img src="images/folio/5.jpg" alt="5-project">
+                <div class="overlay">
+                    <a href="#" target="_blank" class="common-heading">Project 5</a>
+                </div>
+
+            </div>
+            <div class="img-overlay btn-2">
+                <img src="images/folio/3.jpg" alt="6-project">
+                <div class="overlay">
+                    <a href="#" target="_blank" class="common-heading">Project 6</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- *************************************************************
+        Work-Data SECTION
+    ************************************************************* -->
+    <section class="section section-work">
+        <div class="container grid grid-four-col all-data">
+            <div>
+                <h2 class="work-data" data-target-no="2000"></h2>
+                <p>project completed</p>
+            </div>
+            <div>
+                <h2 class="work-data" data-target-no="6000"></h2>
+                <p>Happy clients</p>
+            </div>
+            <div>
+                <h2 class="work-data" data-target-no="4000"></h2>
+                <p>cups of coffee</p>
+            </div>
+            <div>
+                <h2 class="work-data" data-target-no="1000"></h2>
+                <p>real professionals</p>
+            </div>
+        </div>
+    </section>
+    <!-- *************************************************************
+        Services SECTION
+    ************************************************************* -->
+    <section class="section section-service">
+        <div class="container">
+            <div class="service-topData">
+                <h2 class="common-heading">
+                    Service Offers
+                </h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis sapiente unde expedita omnis
+                    aspernatur alias, veniam esse ipsum explicabo quo voluptatibus provident officia earum.</p>
+            </div>
+            <div class="container grid grid-three-col">
+                <div class="service-data">
+                    <ion-icon class="ico" name="desktop-outline"></ion-icon>
+                    <h3>Web Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia fuga ex culpa consequuntur.
+                        Non, cum!</p>
+                </div>
+                <div class="service-data">
+                    <ion-icon class="ico" name="logo-web-component"></ion-icon>
+                    <h3>Web Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia fuga ex culpa consequuntur.
+                        Non, cum!</p>
+                </div>
+                <div class="service-data">
+                    <ion-icon class="ico" name="globe-outline"></ion-icon>
+                    <h3>Web Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia fuga ex culpa consequuntur.
+                        Non, cum!</p>
+                </div>
+                <div class="service-data">
+                    <ion-icon class="ico" name="desktop-outline"></ion-icon>
+                    <h3>Web Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia fuga ex culpa consequuntur.
+                        Non, cum!</p>
+                </div>
+                <div class="service-data">
+                    <ion-icon class="ico" name="desktop-outline"></ion-icon>
+                    <h3>Web Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia fuga ex culpa consequuntur.
+                        Non, cum!</p>
+                </div>
+                <div class="service-data">
+                    <ion-icon class="ico" name="desktop-outline"></ion-icon>
+                    <h3>Web Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia fuga ex culpa consequuntur.
+                        Non, cum!</p>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+    <!-- *************************************************************
+        Resume SECTION
+    ************************************************************* -->
+    <section class="section section-resume">
+        <div class="container grid grid-two-col">
+            <div class="resume-img">
+                <img src="images/bio.jpg" alt="my-pic">
+            </div>
+            <div class="resume-data">
+                <h2 class="common-heading">Resume</h2>
+                <p class="resume-para">My Experience</p>
+                <div class="resume-subsection">
+                    <div class="resume-left-side">
+                        <h3>Online educator on Youtuber</h3>
+                        <div class="grid grid-two-col">
+                            <p>
+                                <ion-icon name="business-outline"></ion-icon>
+                                BhavinPampaniya, inc
+                            </p>
+                            <p>
+                                <ion-icon name="location-outline"></ion-icon>
+                                Gujarat, India
+                            </p>
+                        </div>
+                    </div>
+                    <div class="resume-right-side">
+                        <h3>FULLTIME</h3>
+                        <p>
+                            <ion-icon name="calendar-outline"></ion-icon>
+                            November 2021 - Present
+                        </p>
+                    </div>
+                </div>
+                <!-- another div -->
+                <div class="resume-subsection">
+                    <div class="resume-left-side">
+                        <h3>Online educator on Youtuber</h3>
+                        <div class="grid grid-two-col">
+                            <p>
+                                <ion-icon name="business-outline"></ion-icon>
+                                BhavinPampaniya, inc
+                            </p>
+                            <p>
+                                <ion-icon name="location-outline"></ion-icon>
+                                Gujarat, India
+                            </p>
+                        </div>
+                    </div>
+                    <div class="resume-right-side">
+                        <h3>FULLTIME</h3>
+                        <p>
+                            <ion-icon name="calendar-outline"></ion-icon>
+                            November 2021 - Present
+                        </p>
+                    </div>
+                </div>
+                <!-- another div -->
+                <div class="resume-subsection">
+                    <div class="resume-left-side">
+                        <h3>Online educator on Youtuber</h3>
+                        <div class="grid grid-two-col">
+                            <p>
+                                <ion-icon name="business-outline"></ion-icon>
+                                BhavinPampaniya, inc
+                            </p>
+                            <p>
+                                <ion-icon name="location-outline"></ion-icon>
+                                Gujarat, India
+                            </p>
+                        </div>
+                    </div>
+                    <div class="resume-right-side">
+                        <h3>FULLTIME</h3>
+                        <p>
+                            <ion-icon name="calendar-outline"></ion-icon>
+                            November 2021 - Present
+                        </p>
+                    </div>
+                </div>
+                <!-- another div -->
+                <div class="resume-subsection">
+                    <div class="resume-left-side">
+                        <h3>Online educator on Youtuber</h3>
+                        <div class="grid grid-two-col">
+                            <p>
+                                <ion-icon name="business-outline"></ion-icon>
+                                BhavinPampaniya, inc
+                            </p>
+                            <p>
+                                <ion-icon name="location-outline"></ion-icon>
+                                Gujarat, India
+                            </p>
+                        </div>
+                    </div>
+                    <div class="resume-right-side">
+                        <h3>FULLTIME</h3>
+                        <p>
+                            <ion-icon name="calendar-outline"></ion-icon>
+                            November 2021 - Present
+                        </p>
+                    </div>
+                </div>
+                <!-- education section -->
+                <p class="resume-para">Education</p>
+                <!-- <div class="resume-data-education"> -->
+                <div class="resume-subsection">
+                    <div class="resume-left-side">
+                        <h3>Masters in Computer Applications</h3>
+                        <div class="grid grid-two-col">
+                            <p>
+                                <ion-icon name="business-outline"></ion-icon>
+                                Ganpat University, Gujarat
+                            </p>
+                            <p>
+                                <ion-icon name="location-outline"></ion-icon>
+                                Gujarat, India
+                            </p>
+                        </div>
+                    </div>
+                    <div class="resume-right-side">
+                        <h3>MASTERS</h3>
+                        <p>
+                            <ion-icon name="calendar-outline"></ion-icon>
+                            November 2021 - Present
+                        </p>
+                    </div>
+                </div>
+                <!-- </div> -->
+                <!-- another div -->
+                <div class="resume-subsection">
+                    <div class="resume-left-side">
+                        <h3>Bachelor in Computer Applications</h3>
+                        <div class="grid grid-two-col">
+                            <p>
+                                <ion-icon name="business-outline"></ion-icon>
+                                Ganpat University, Gujarat
+                            </p>
+                            <p>
+                                <ion-icon name="location-outline"></ion-icon>
+                                Gujarat, India
+                            </p>
+                        </div>
+                    </div>
+                    <div class="resume-right-side">
+                        <h3>BACHELOR</h3>
+                        <p>
+                            <ion-icon name="calendar-outline"></ion-icon>
+                            November 2023 - Present
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- *************************************************************
+        Testimonial SECTION
+    ************************************************************* -->
+    <section class="section section-testimonial">
+        <div class="container">
+
+            <h2 class="common-heading">Happy Client Works</h2>
+
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!-- section start -->
+                    <div class="swiper-slide">
+                        <div class="swiper-client-review">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, debitis perspiciatis
+                                molestias exercitationem, aliquam doloribus sit nam adipisci itaque quod voluptates
+                                maxime eius odio.</p>
+                        </div>
+                        <div class="swiper-bottom-data grid grid-two-col">
+                            <figure>
+                                <img src="images/herobg.jpg" alt="client img">
+                            </figure>
+                            <div class="swiper-right-data">
+
+                                <h3>Bhavin Pampaniya</h3>
+                                <p>Entrepreneur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- section end -->
+                    <div class="swiper-slide">
+                        <div class="swiper-client-review">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, debitis perspiciatis
+                                molestias exercitationem, aliquam doloribus sit nam adipisci itaque quod voluptates
+                                maxime eius odio.</p>
+                        </div>
+                        <div class="swiper-bottom-data grid grid-two-col">
+                            <figure>
+                                <img src="images/clients/a.jpg" alt="client img">
+                            </figure>
+                            <div class="swiper-right-data">
+
+                                <h3>Bhavin Pampaniya</h3>
+                                <p>Entrepreneur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- section end -->
+                    <div class="swiper-slide">
+                        <div class="swiper-client-review">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, debitis perspiciatis
+                                molestias exercitationem, aliquam doloribus sit nam adipisci itaque quod voluptates
+                                maxime eius odio.</p>
+                        </div>
+                        <div class="swiper-bottom-data grid grid-two-col">
+                            <figure>
+                                <img src="images/clients/b.jpg" alt="client img">
+                            </figure>
+                            <div class="swiper-right-data">
+
+                                <h3>Bhavin Pampaniya</h3>
+                                <p>Entrepreneur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- section end -->
+                    <div class="swiper-slide">
+                        <div class="swiper-client-review">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, debitis perspiciatis
+                                molestias exercitationem, aliquam doloribus sit nam adipisci itaque quod voluptates
+                                maxime eius odio.</p>
+                        </div>
+                        <div class="swiper-bottom-data grid grid-two-col">
+                            <figure>
+                                <img src="images/clients/c.jpg" alt="client img">
+                            </figure>
+                            <div class="swiper-right-data">
+
+                                <h3>Bhavin Pampaniya</h3>
+                                <p>Entrepreneur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- section end -->
+                    <div class="swiper-slide">
+                        <div class="swiper-client-review">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, debitis perspiciatis
+                                molestias exercitationem, aliquam doloribus sit nam adipisci itaque quod voluptates
+                                maxime eius odio.</p>
+                        </div>
+                        <div class="swiper-bottom-data grid grid-two-col">
+                            <figure>
+                                <img src="images/clients/d.jpg" alt="client img">
+                            </figure>
+                            <div class="swiper-right-data">
+
+                                <h3>Bhavin Pampaniya</h3>
+                                <p>Entrepreneur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- section end -->
+                    <div class="swiper-slide">
+                        <div class="swiper-client-review">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, debitis perspiciatis
+                                molestias exercitationem, aliquam doloribus sit nam adipisci itaque quod voluptates
+                                maxime eius odio.</p>
+                        </div>
+                        <div class="swiper-bottom-data grid grid-two-col">
+                            <figure>
+                                <img src="images/clients/e.jpg" alt="client img">
+                            </figure>
+                            <div class="swiper-right-data">
+
+                                <h3>Bhavin Pampaniya</h3>
+                                <p>Entrepreneur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- section end -->
+                    <div class="swiper-slide">
+                        <div class="swiper-client-review">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, debitis perspiciatis
+                                molestias exercitationem, aliquam doloribus sit nam adipisci itaque quod voluptates
+                                maxime eius odio.</p>
+                        </div>
+                        <div class="swiper-bottom-data grid grid-two-col">
+                            <figure>
+                                <img src="images/clients/f.jpg" alt="client img">
+                            </figure>
+                            <div class="swiper-right-data">
+
+                                <h3>Bhavin Pampaniya</h3>
+                                <p>Entrepreneur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- section end -->
+                    <div class="swiper-slide">
+                        <div class="swiper-client-review">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, debitis perspiciatis
+                                molestias exercitationem, aliquam doloribus sit nam adipisci itaque quod voluptates
+                                maxime eius odio.</p>
+                        </div>
+                        <div class="swiper-bottom-data grid grid-two-col">
+                            <figure>
+                                <img src="images/clients/h.jpg" alt="client img">
+                            </figure>
+                            <div class="swiper-right-data">
+
+                                <h3>Bhavin Pampaniya</h3>
+                                <p>Entrepreneur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- section end -->
+                    <div class="swiper-slide">
+                        <div class="swiper-client-review">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, debitis perspiciatis
+                                molestias exercitationem, aliquam doloribus sit nam adipisci itaque quod voluptates
+                                maxime eius odio.</p>
+                        </div>
+                        <div class="swiper-bottom-data grid grid-two-col">
+                            <figure>
+                                <img src="images/clients/e.jpg" alt="client img">
+                            </figure>
+                            <div class="swiper-right-data">
+
+                                <h3>Bhavin Pampaniya</h3>
+                                <p>Entrepreneur</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-scrollbar"></div>
+            </div>
+
+        </div>
+    </section>
+    <!-- *************************************************************
+        Freelancing SECTION
+    ************************************************************* -->
+    <section class="section section-freelancing">
+        <div class="freelancing-overlay"></div>
+        <div class="container">
+            <h2>I am <span>available</span> for Freelancing</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam odit aliquid odio ipsa ullam magnam
+                repudiandae fugit, omnis animi perspiciatis.</p>
+            <a class="btn freelance-btn" >Hire Me</a>
+        </div>
+    </section>
+    <!-- *************************************************************
+        Contact SECTION
+    ************************************************************* -->
+    <section class="section section-contact">
+        <div class="container">
+            <h2 class="common-heading">Conctact Me</h2>
+        </div>
+        <div class="contact-container">
+            <form action="https://formspree.io/f/mwkyjaoj" method="POST">
+                <div class="grid grid-two-col">
+                    <div>
+                        <label for="name"></label>
+                        <input type="text" name="name" id="name" placeholder="Name" autocomplete="off" required>
+                    </div>
+                    <div>
+                        <label for="email"></label>
+                        <input type="email" name="email" id="email" placeholder="Email" autocomplete="off" required>
+                    </div>
+                </div>
+                <div>
+                    <label for="subject"></label>
+                    <input type="text" name="subject" id="subject" placeholder="Subject" autocomplete="off" required>
+                </div>
+                <div>
+                    <label for="textarea"></label>
+                    <textarea name="Message" id="textarea" cols="30" rows="10" autocomplete="off" minlength="5"
+                        placeholder="Write Your Message Here" required></textarea>
+                </div>
+                <!-- <button type="submit" class="btn" >Send Message</button> -->
+                <input class="btn" type="submit" value="Send Messasge">
+            </form>
+        </div>
+    </section>
+    <!-- *************************************************************
+        Footer SECTION
+    ************************************************************* -->
+
+    <footer class="section section-footer">
+        <div class="container grid grid-four-col">
+            <div class="footer-about">
+                <h3>About</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus ipsa cumque at laborum laboriosam
+                    corrupti beatae sint voluptate officia amet.
+                </p>
+            </div>
+            <div class="footer-links">
+                <h3>Links</h3>
+                <a href="#" class="links">Home</a>
+                <a href="#" class="links">About</a>
+                <a href="#" class="links">Services</a>
+                <a href="#" class="links">Portfolio</a>
+                <a href="#" class="links">Contact</a>
+            </div>
+            <div class="footer-links">
+                <h3>Work Links</h3>
+                <a href="#" class="links">Web Design</a>
+                <a href="#" class="links">Web Development</a>
+                <a href="#" class="links">MERN Project</a>
+                <a href="#" class="links">JavaScript Project</a>
+                <a href="#" class="links">Python Project</a>
+            </div>
+            <div class="personal-info">
+                <h3>Have any Query?</h3>
+                <address>
+                    <div>
+                        <p>
+                            <span>
+                                <ion-icon name="location-outline"></ion-icon>
+                            </span>
+                            Gujarat, India
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <span>
+                                <ion-icon name="call-outline"></ion-icon>
+                            </span>
+                            <a href="tel:919099905699">+91 9099905699</a>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <span>
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </span>
+                            <a href="mailto:bhavinpampaniya07@gmail.com">bhavinpampaniya07@gmail.com</a>
+                        </p>
+                    </div>
+                </address>
+            </div>
+        </div>
+        <div class="social-links">
+            <div class="insta">
+                <a>
+                    <ion-icon class="ico" name="logo-instagram"></ion-icon>
+                </a>
+            </div>
+            <div class="git-hub">
+                <a>
+                    <ion-icon class="ico" name="logo-github"></ion-icon>
+                </a>
+            </div>
+        </div>
+        <div class="copyright">
+            Copyright &#169;2022 All rights reserved | This template is made by Bhavin Pampaniya | inspired from Thapa
+            Technical
+        </div>
+    </footer>
+
+
+    <!-- *************************************************************
+        JavaScript SECTION
+    ************************************************************* -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+</body>
+
+</html>
